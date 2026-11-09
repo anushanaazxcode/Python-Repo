@@ -41,14 +41,12 @@ def main():
     sentence = input("Enter a sentence: ")
     number = int(input("Enter a number: "))
 
-    print("
---- Text Analysis ---")
+    print("--- Text Analysis ---")
     print(f"Word Count: {word_count(sentence)}")
     print(f"Longest Word: {longest_word(sentence)}")
     print(f"Reversed Sentence: {reverse_sentence(sentence)}")
 
-    print("
---- Number Analysis ---")
+    print("--- Number Analysis ---")
     if is_prime(number):
         print(f"{number} is a prime number.")
     else:
